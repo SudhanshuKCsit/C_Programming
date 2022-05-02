@@ -42,7 +42,7 @@
 
 >*input*:5<br><br>*output*:<br>Fibo(5) = 5
 
-5. Write a program to find all the prime numbers from 2 to n erotosthenes sieve method.
+5. Write a program to find all the prime numbers from 2 to n eratosthenes sieve method.
 
 ```c
         int input_array_size();
