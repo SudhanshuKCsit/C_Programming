@@ -20,40 +20,58 @@
 
 >input:<br>1<br>2<br>output:<br>sum of 1+2 is 3
 
-<br> 5.	Write a program to Compare 3 numbers using 4 functions
-	<br> a.	Pass by value	     //int cmp(int a, int b, int c) -> int input ()
-	<br> b.	Pass by reference //void cmp(int a, int b, int c, int *large); -> void input (int *a, int *b)
-<br> 6.	Write a program to find Sum of n numbers
-	<br> a.	Sum of n numbers 
-	<br> int input_n();
-	<br> int sum_n(int n);
-	<br> void output(int n, int sum);
-	<br> input: 
-	<br> 5
-	<br> output:
-	<br> 1+2+3+4+5 is 15
-	Function Prototypes:
-<br> 7.	Write a program to find Sum of n different number
-entered by the user
-	<br> int input_array_size();
-	<br> void input_array(int n, int a[n]);
-	<br> int sum_n_arrays(int n, int a[n]);
-	<br> void out_put(int n, int a[n], int sum);
-	<br> input:
-	<br> 1 7 11
-	<br> output:
-	<br> 1+7+11 is 19
-<br> 8. Write a program to find the square root of a number.
-	<br> float input();
-	<br> float my_sqrt(float n);
-	<br> void output(float n, float sqrt_result);
+5.	Write a program to Compare 3 numbers using 4 functions
+```c
+	int input ();
+	int cmp(int a, int b, int c);
+	void output(int a, int b, int c, int largest);
+```
+
+>input:<br>1<br>1<br>0<br>output:<br>The largest of 1 , 1 and 0 is 1    
+
 	
-<br> 9.	Write a program to Compare two strings
-	<br> void input_two_string(char *a, char *b);
-	<br> int strcmp(char *a, char *b);
-	<br> void output(char *a, char *b, int result);
-	<br> input:
-	<br> hello 
+6.	Write a program to find Sum of all natural numbers till n
+```c	 
+	int input_n();
+	int sum_n(int n);
+	void output(int n, int sum);
+```
+
+>	input:<br>5<br>output:<br>1+2+3+4+5 is 15
+
+
+
+7.	Write a program to find Sum of n different number entered by the user
+
+```c
+	int input_array_size();
+	void input_array(int n, int a[n]);
+	int sum_n_arrays(int n, int a[n]);
+	void output(int n, int a[n], int sum);
+```
+	
+>	input:<br>3<br>1 7 11<br>output:<br>1+7+11 is 19
+	
+	
+8. Write a program to find the square root of a number.
+	
+```c	
+	float input();
+	float my_sqrt(float n);
+	void output(float n, float sqrt_result);
+```
+
+>	input:<br>49<br>output: The square root of 49.0 is 7.0
+>	Hint: [Wikepedia](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method)
+
+	
+9.	Write a program to Compare two strings
+	void input_two_string(char *a, char *b);
+	int strcmp(char *a, char *b);
+	void output(char *a, char *b, int result);
+	
+	input:
+	hello 
 	<br> world
 	<br> output:
 	<br> world is greater than hello
