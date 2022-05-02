@@ -42,16 +42,17 @@
 
 >*input*:5<br><br>*output*:<br>Fibo(5) = 5
 
-5. Write a program to find all the prime numbers between erotosthenes sieve method.
+5. Write a program to find all the prime numbers from 2 to n erotosthenes sieve method.
 
-int input_array_size();
-void init_array(int n, int a[n];
-void erotosthenes_sieve(int n, int a[n]);
-void out_put(int n, int a[n]);
-input:
-100
-output:
-2,3,7,11,13,19,23,29,31,...
+```c
+        int input_array_size();
+        void init_array(int n, int a[n];
+        void erotosthenes_sieve(int n, int a[n]);
+        void output(int n, int a[n]);
+```
+
+>*input*:<br>100<br><br>*output*:<br>2,3,7,11,13,19,23,29,31,...<br>
+>Hint: [Eratosthenes Sieve](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 
 
 6. Write a program to find the index of a substring of a string.
