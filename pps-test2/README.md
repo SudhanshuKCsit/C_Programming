@@ -8,7 +8,7 @@
   };
   typedef struct _point Point;
   
-  void input(Point *a, Point *b);
+  Point input();
   void dist(Point a, Point b, float *res);
   void output(Point a, Point b, float res);
 ```
