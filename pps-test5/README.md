@@ -60,38 +60,47 @@
 
 >*input*:<br>4 2 9 1 7<br><br>*output*:<br>The Index of largest number of the above array is: 2
 
-6. Write a program to count the number of words in a string using strtok ( string.h)
-void input_string(char *a);
-int count_words(char *string);
-void output(char *string, int no_words);
-input:
-hello world hello
+6. Write a program to count the number of words in a string using strtok(string.h)
 
-output:
-3
+```c
+    void input_string(char *a);
+    int count_words(char *string);
+    void output(char *string, int no_words);
+```
+
+>*input*:<br>hello world hello<br><br>output:<br>The number of words in "hello world hello" is 3
 
 
 7. Write a program to add two fractions.
-struct _fraction
-{
-int num,den;
-};
-typedef _fraction Fraction;
-int find_gcd(int a, int b);
-Fraction input_fraction();
-Fraction add_fractions(Fraction f1, Fraction f2)
-void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum)
 
+typedef struct fraction
+{
+    int num, den;
+} Fraction;
+
+```c
+    Fraction input_fraction();
+    int find_gcd(int a, int b);
+    Fraction add_fractions(Fraction f1, Fraction f2)
+    void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum)
+```
+
+>*input*:<br>9 6<br>5 6<br><br>*output*:<br>9/6 + 5/6 = 7/3
 
 8. Write program to add n fractions
-struct _fraction
+
+```c
+typedef struct fraction
 {
-int num,den;
-};
-typedef _fraction Fraction;
-int find_gcd(int a, int b);
+    int num, den;
+} Fraction;
+
+int input_n();
 Fraction input_fraction();
-void input_in_fractions(int n, Fraction f[n]);
+void input_n_fractions(int n, Fraction f[n]);
+int find_gcd(int a, int b);
 Fraction add_fractions(Fraction f1, Fraction f2);
 Fraction add_n_fractions(int n,Fraction f[n]);
 void output(int n, Fraction f[n], Fraction sum);
+```
+>*input*:<br>3<br>4 3<br>8 9<br>1 2<br><br>*output*:<br>4/3 + 8/9 + 1/2 is 49/18
