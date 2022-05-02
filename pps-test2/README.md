@@ -25,7 +25,7 @@
 
 >*input*:<br>1<br>1<br>1<br><br>*output*:<br>The weight of the camel with radius: 1.0, height: 1.0, length: 1.0 is 3.1415
 
-3.  Write a program to find the weight of the camel given height, length and stomach radius using four functions **Pass By Value**
+3.  Write a program to find the weight of the camel given height, length and stomach radius using four functions **(Structures)**
 >    weight = pi _ stomach_raduius3 _ sqrt(height _ length).
 ```c
     struct camel 
