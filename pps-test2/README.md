@@ -12,7 +12,7 @@
   void dist(Point a, Point b, float *res);
   void output(Point a, Point b, float res);
 ```
->*input*:<br>1.0 1.0<br>2.0 2.0<br><br>*output*<br>The distance b/w (1.0, 1.0) and (2.0, 2.0) is 1.0
+>*input*:<br>1.0 1.0<br>2.0 2.0<br><br>*output*:<br>The distance b/w (1.0, 1.0) and (2.0, 2.0) is 1.0
  
 2.  Write a program to find the weight of the camel given height, length and stomach radius using four functions
 >   weight = pi * stomach_raduius^3 * sqrt(height * length)
@@ -23,7 +23,7 @@
     void output(float radius, float height, float length, float weight); 
 ```
 
->*input*:<br>1<br>1<br>1<br><br>*output*<br>The weight of the camle with radius: 1.0, height: 1.0, length: 1.0 is 3.1415
+>*input*:<br>1<br>1<br>1<br><br>*output*:<br>The weight of the camle with radius: 1.0, height: 1.0, length: 1.0 is 3.1415
 
 Expression, Functions and Structures. 
 Write a program to find the weight of the camel given height, length and stomach radius. weight = pi _ stomach_raduius3 _ sqrt(height _ length).
