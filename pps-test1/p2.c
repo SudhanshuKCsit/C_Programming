@@ -1,29 +1,12 @@
 # include <stdio.h>
 
-int input()
-{
-  int a;
-  printf("enter the value \n");
-  scanf("%d",&a);
-  return a; 
-  }
-  int add(int a,int b)
-{
-  int sum;
-  sum=a+b;
-  return sum;
-}
-void output(int a,int b,int sum)
-{
-  printf("sum of %d + %d is %d\n",a,b,sum);
-}
 int main()
 {
-  
-  int a,b,sum;
-  a=input();
-  b=input();
-  sum=add(a,b);
-  output(a,b,sum);
+  int a,b,c;
+  printf("enter the value for a and b\n");
+  scanf("%d %d",&a,&b);
+  c=a+b;
+  printf("Sum two numbers is %d\n",c);
   return 0;
+
 }
