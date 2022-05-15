@@ -2,7 +2,6 @@
 
 void input(int *a,int *b)
 {
-  int d;
   printf("Enter the value for a,b\n");
   scanf("%d %d",a,b);
 }
