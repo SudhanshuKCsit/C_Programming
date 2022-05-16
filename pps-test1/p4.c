@@ -7,13 +7,12 @@ void input(int *a,int *b)
 }
 void add(int a,int b,int *sum)
 {
-  scanf("%n",sum);
+  *sum=a+b;
     
 }
 void output(int a,int b,int sum)
 {
-  sum=a+b;
-  printf("The sum of two numbers is %d\n",sum);
+  printf("The sum of %d and %d is  %d\n",a,b,sum);
 }
 int main()
 {
