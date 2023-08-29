@@ -1,4 +1,6 @@
+
 #include <stdio.h>
+
 int input()
 {
   int n;
@@ -6,22 +8,19 @@ int input()
   scanf("%d",&n);
   return n;
 }
-
-void aray(int n,int a[10])
+void array(int n,int a[10])
 {
   int i;
-  for(i=0;i<n;i++)
-  {
-    printf("enter elements %d :\n",i);
-    scanf("%d",&a[i]);
+  for(i=0;i<n;i++){
+  printf("enter elements %d :\n",i);
+  scanf("%d",&a[i]);
   }
 }
 int add(int n,int a[10])
 {
   int sum=0, i;
-  for(i=0;i<n;i++)
-  {
-    sum=sum+a[i];
+  for(i = 0 ; i < n ; i++){
+  sum = sum + a[i] ;
   }
   return sum;
 }
@@ -33,7 +32,7 @@ int add(int n,int a[10])
   {
     int n,a[10],sum;
     n=input();
-    aray(n,a);
+    array(n,a);
     sum=add(n,a);
     output(sum);
     return 0;

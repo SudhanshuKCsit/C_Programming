@@ -1,7 +1,10 @@
+
 # include <stdio.h>
+
 float input();
 	float my_sqrt(float n);
 	void output(float n, float sqrt_result);
+
 float input()
 {
   float n;
@@ -9,6 +12,7 @@ float input()
   scanf("%f",&n);
   return n;
 }
+
 float my_sqrt(float n)
 {
   float sqrt_result;
@@ -21,6 +25,7 @@ float my_sqrt(float n)
   }
   return sqrt_result;
 }
+
 void output(float n, float sqrt_result)
 {
   int j,k;
@@ -28,6 +33,7 @@ void output(float n, float sqrt_result)
   k=sqrt_result;
   printf("square root of %d is %d\n",j,k);
 }
+
 int main()
 {
   float n,sqrt_result;

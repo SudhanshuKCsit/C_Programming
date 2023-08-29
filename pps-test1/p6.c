@@ -1,3 +1,4 @@
+
 # include <stdio.h>
 
 int input_n()
@@ -9,9 +10,9 @@ int input_n()
 }
 int sum_n(int n)
 {
-     int sum=0,i;
-     sum=(n*(n+1))/2;
-     return sum;
+    int sum=0,i;
+    sum=(n*(n+1))/2;
+    return sum;
 }
 void output (int n,int sum)
 {
